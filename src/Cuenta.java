@@ -8,18 +8,6 @@ public class Cuenta {
         saldo = saldoini;
     }
 
-    public double Consignar(double cantidad) {
-        saldo = saldo + cantidad;
-        return cantidad;
-    }
 
-    public double Retirar(double cantidad) {
-        saldo = saldo - cantidad;
-        return cantidad;
-    }
-
-    public double saldo() {
-        return saldo;
-    }
 
 }
