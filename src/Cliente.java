@@ -28,7 +28,7 @@ public class Cliente {
         double valorretiro=5000;
         System.out.println( "Se retiraron de la cuenta: "+ valorretiro+ "COP");
         Cuenta1.Retirar(valorretiro);
-        System.out.println("-----------------------------------------------------------------");
+        System.out.println("");
 
         // Consultamos el saldo de nuevo
         totalCuenta = Cuenta1.saldo();
