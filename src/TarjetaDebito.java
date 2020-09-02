@@ -7,5 +7,14 @@ public class TarjetaDebito {
     public TarjetaDebito(double saldoTarjetaD) {
         this.saldoTarjetaD = saldoTarjetaD;
     }
+
     System.out.println("Saldo debito\n")
+
+    @Override
+    public String toString() {
+        return "TarjetaDebito{" +
+                "saldoTarjetaD=" + saldoTarjetaD +
+                '}';
+    }
+
 }
