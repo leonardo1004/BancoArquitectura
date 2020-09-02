@@ -4,4 +4,11 @@ public class TarjetaDebito {
     public TarjetaDebito(double saldoTarjetaD) {
         this.saldoTarjetaD = saldoTarjetaD;
     }
+
+    @Override
+    public String toString() {
+        return "TarjetaDebito{" +
+                "saldoTarjetaD=" + saldoTarjetaD +
+                '}';
+    }
 }
